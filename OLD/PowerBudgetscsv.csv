@@ -1,0 +1,17 @@
+﻿Powermode;Magnetorquer;;Reactionwheels;;GPS;;IMU;;Magentometer;;Sun Sensor;;SatNogs UHF;;SatNogs S-Band;;UHF Deployment;;Amateur Radio;;Power Module;;Solar Panels;;Mainboard;;Payload;;Eclipse Mode ;
+Detumble;0.4;x;2.5;;x;x;x;x;0.02;always;0.05;600;0;0;0;0;0;0;0;0;0.15;always;0.165;always;1;always;3;x;0;0
+Deploy;0.1;idle;0;0;x;x;x;x;0.02;always;0.05;600;0;0;0;0;15;120;0;0;0.2;120;0.165;always;1;always;3;x;0;0
+Test;0;0;0.1;x;x;x;x;x;0.02;always;0.01;600;0;0;0;0;0;0;0;0;0.15;always;0.165;always;1;always;8;600;0;0
+Tx;0;0;0;0;x;x;x;x;0.02;always;0;0;10;300;0;0;0;0;0;0;0.2;120;0.165;always;1;always;3;x;0;0
+Charge ;0.1;idle;0.6;x;x;x;x;x;0.02;always;0.05;300;0;0;0;0;0;0;0;0;0.15;always;0.165;always;1;always;3;x;4.5;2100
+Split ;0.1;idle;0.6;x;x;x;x;x;0.02;always;0;0;0;0;0;0;0;0;0;0;0.15;always;0.165;always;1;always;8;120;4.5;2100
+Point;0.2;x;1;x;x;x;x;x;0.02;always;0.1;300;0;0;0;0;0;0;0;0;0.15;always;0.165;always;1;always;3;x;4.5;2100
+Desaturation;0.6;x;1.5;x;x;x;x;x;0.02;always;0;0;0;0;0;0;0;0;0;0;0.15;always;0.165;always;1;always;3;x;4.5;2100
+Tx;0.1;idle;0.6;x;x;x;x;x;0.02;always;0;0;5;600;8;600;0;0;0;0;0.2;always;0.165;always;1;always;3;x;4.5;2100
+Rx;0.1;idle;0.6;x;x;x;x;x;0.02;always;0;0;5;600;5;600;0;0;0;0;0.2;always;0.165;always;1;always;3;x;4.5;2100
+Spin up;0.6;x;2.5;x;x;x;x;x;0.02;always;0.05;1800;0;0;0;0;0;0;0;0;0.2;always;0.165;always;1;always;3;x;4.5;2100
+Experiment;0.2;x;0.5;x;x;x;x;x;0.02;always;0.05;300/h;5;60;0;0;0;0;10;x;0.15;always;0.165;always;1;always;3.1;x+peak;4.5;2100
+Spin Down;0.6;x;2.5;x;x;x;x;x;0.02;always;0.05;1800;0;0;0;0;0;0;0;0;0.2;always;0.165;always;1;always;3;x;4.5;2100
+Beacon;0;0;0;0;0;0;0;0;0.02;always;0.05;x;8;60;0;0;0;0;0;0;0.15;always;0.165;always;1;always;3;x;0;0
+Critical ;0;0;0;0;0;0;0;0;0.02;always;0.01;x;0;0;0;0;0;0;0;0;0.15;always;0.165;always;1;always;1;x;0;0
+Emergency;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.15;always;0.165;always;1;always;0;0;0;0
